@@ -1,3 +1,8 @@
+<!-- default file list -->
+*Files to look at*:
+
+* **[MainWindow.xaml](./CS/TreeMapHighlightingSelectionSample/MainWindow.xaml) (VB: [MainWindow.xaml](./VB/TreeMapHighlightingSelectionSample/MainWindow.xaml))**
+<!-- default file list end -->
 # How to configure Tree Map end-user interaction permissions
 
 
