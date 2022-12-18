@@ -1,17 +1,20 @@
-﻿Imports System.Windows
+Imports System.Windows
 Imports Dxtm = DevExpress.Xpf.TreeMap
 
 Namespace TreeMapHighlightingSelectionSample
-    Partial Public Class MainWindow
+
+    Public Partial Class MainWindow
         Inherits Window
 
         Public Sub New()
-            InitializeComponent()
+            Me.InitializeComponent()
         End Sub
     End Class
 
     Public Class SelectionModeWrapper
-        Public Property ModeName() As String
-        Public Property Mode() As DevExpress.Xpf.TreeMap.SelectionMode
+
+        Public Property ModeName As String
+
+        Public Property Mode As Dxtm.SelectionMode
     End Class
 End Namespace
